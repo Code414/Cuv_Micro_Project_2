@@ -1,0 +1,218 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family: 'Delius Unicase';
+}
+
+li {
+    list-style: none;
+}
+
+header{
+    background-color:#6F6AF7;
+    
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    background-color:#6F6AF7;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+.logo{
+    font-family: Delius Unicase;
+    margin-left: 7%;
+    color: white;
+    font-weight: 700;
+    font-style: Delius Unicase;
+    font-size: larger;
+}
+
+search{
+    height:5%;
+    border-radius: 2%;
+}
+
+.toggle-btn{
+    margin-right: 3%;
+}
+
+.section-1{
+    display: flex;
+    margin-top: 5%;
+    width:100vh;
+    position: relative;
+}
+
+.left{
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+.right{
+    
+}
+
+#default{
+    padding-top: 3%;
+}
+
+textarea {
+    resize: none;
+}
+
+.icons{
+    height:10%;
+    margin-top: -15%; 
+    /* position:sticky;  */
+    top:100px;
+}
+.section-2{
+    display: flex;
+    margin-top: 5%;
+    position: relative;
+}
+
+#help{
+    margin-top: 2%;
+    margin-left: 94%;
+    position: fixed;
+    display: block;
+}
+.item{
+    height: 100px;
+    width: 500px;
+    margin-left: 4%;
+    margin-right: 7%;
+    border-radius: 5%;
+}
+
+.item-1{
+    background-color: #929DFF;
+    font-family: DM Sans;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.item-2{
+    background-color:#734CF2;
+    font-family: DM Sans;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.item-3{
+    background-color: #D288FF;
+    font-family: DM Sans;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.item-4{
+    background-color: #000000;
+    font-family: DM Sans;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.section-3{
+    background-color: #483EFF;
+    width: 93%;
+    height: 400px;
+    margin-left: 4%;
+    margin-right: 7%;
+    display: flex;
+    margin-top: 5%;
+}
+
+.first{
+    height: 50%;
+    width: 40%;
+}
+
+.info{
+    background-color: #BCE0F6; 
+    height: 27%;  
+    width: 75%;
+    justify-content: center;
+    margin: 15% 10% 5% 10%;
+    border-radius: 4%;
+    text-align: center;
+    font-size: large;
+}
+
+.bookmarks{
+    color: white; 
+    height: 27%;  
+    width: 75%;
+    justify-content: center;
+    margin: 10% 10% 5% 10%;
+    border-radius: 4%;
+    text-align: center;
+    font-size: large; 
+    border-style: solid;
+    border-color: white;
+}
+
+.settings{
+    color: white; 
+    height: 27%;  
+    width: 75%;
+    justify-content: center;
+    margin: 10% 10% 5% 10%;
+    border-radius: 4%;
+    text-align: center;
+    font-size: large;
+    border-style: solid;
+    border-color: white;
+}
+
+.second{
+    background-color: white;
+    margin-top: 3%;
+    width: 60%;
+    height: 315px;
+    float: right;
+    margin-right: 4%;
+    border-radius: 2%;
+}
+
+.second h2{
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.second p{
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+
+.next{
+    background-color: black;
+    height:10%;
+    width:15%;
+    color: white;
+    float: right;
+    margin-right: 4%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5%;
+}
